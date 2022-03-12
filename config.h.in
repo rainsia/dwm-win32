@@ -7,8 +7,8 @@
 #define PROJECT_VER_MINOR "@PROJECT_VERSION_MINOR@"
 #define PTOJECT_VER_PATCH "@PROJECT_VERSION_PATCH@"
 
-static const wchar_t *fontname         = L"Fira Code";
-static const unsigned int fontsize  = 20;
+static const wchar_t *fontname         = L"JetBrainsMono NF";
+static const unsigned int fontsize  = 16;
 
 /* appearance, colors are specified in the form 0x00bbggrr or with the RGB(r, g, b) macro */
 #define normbordercolor 0x00444444
