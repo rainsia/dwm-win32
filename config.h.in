@@ -27,7 +27,9 @@ static bool showutcclock              = false;     /* false means no utc clock *
 static bool showexploreronstart       = true;    /* false means do not show explorer/task bar on start */
 
 /* tagging */
-static const wchar_t tags[][MAXTAGLEN] = { L"1", L"2", L"3", L"4", L"5", L"6", L"7", L"8", L"9" };
+static const wchar_t tags[][MAXTAGLEN] = { L"1\ufaae", L"2\uf489", L"3\uf668", 
+                                           L"4\ufa9e", L"5\uf718", L"6\uf24a", 
+                                           L"7\uf413", L"8\uf1c8", L"9\ue615" };
 static unsigned int tagset[] = {1, 1}; /* after start, first tag is selected */
 
 static Rule rules[] = {
